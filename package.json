@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
+    "build": "tsc -b && npx vite build",
     "dev": "vite",
-    "build": "tsc -b && vite build",
     "preview": "vite preview",
     "storybook": "npx storybook dev -p 6006",
     "build-storybook": "npx storybook build",
