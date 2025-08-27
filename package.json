@@ -4,6 +4,8 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
+  "chromatic": "npx chromatic --project-token=chpt_47bbaa99c45f1ab",
+
     "prebuild": "chmod +x ./node_modules/.bin/tsc && chmod +x ./node_modules/.bin/vite",
     "build": "tsc -b && vite build",
     "dev": "vite",
@@ -24,6 +26,7 @@
     "@storybook/react-vite": "^8.3.4",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.0.1",
+    "@types/node": "^24.3.0",
     "@types/react": "^18.3.24",
     "@types/react-dom": "^18.3.7",
     "@vitejs/plugin-react": "^5.0.1",
