@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
+    "prebuild": "chmod +x ./node_modules/.bin/tsc && chmod +x ./node_modules/.bin/vite",
     "build": "tsc -b && vite build",
     "dev": "vite",
     "preview": "vite preview",
